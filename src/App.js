@@ -9,7 +9,7 @@ import Footer from "./Footer";
 import BookNow from "./pages/BookNow";
 import KitchenAndBathroom from "./pages/KitchenAndBathroom";
 import Windows from "./pages/Windows";
-import Carpets from "./pages/carpet";
+import Carpets from "./pages/Carpet";
 
 function App() {
   return (
