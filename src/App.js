@@ -1,7 +1,7 @@
 // import React, { Component } from "react";
 import HomePage from "./pages/HomePage";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import AboutPage from "./pages/AboutPage";
 import NavBar from "./NavBar";
 import Contact from "./pages/Contact";
@@ -13,7 +13,7 @@ import Carpets from "./pages/carpet";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <NavBar />
         <Routes>
@@ -27,7 +27,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
