@@ -10,6 +10,7 @@ import BookNow from "./pages/BookNow";
 import KitchenAndBathroom from "./pages/KitchenAndBathroom";
 import Windows from "./pages/Windows";
 import Carpets from "./pages/Carpet";
+import NotFoundPage from "./pages/NotFound";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/kitchen" element={<KitchenAndBathroom />} />
           <Route path="/windows" element={<Windows />} />
           <Route path="/carpet" element={<Carpets />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />
       </div>
